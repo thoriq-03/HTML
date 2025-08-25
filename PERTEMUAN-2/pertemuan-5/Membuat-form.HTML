@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan form</title>
+</head>
+<body>
+    <!-- form login -->
+    <form action="register.php" method="post">
+        <fieldset>
+            <legend>register</legend>
+            <p>
+                <Label>Nama:</Label>
+                <input type="text" name="nama" placeholder="Nama Lengkap...">
+            </p>
+            <p>
+                <label>username</label>
+                <input type="text" name="username" placeholder="username...">
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="your email...">
+            </p>
+            <p>
+                <label>password</label>
+                <input type="password" name="password"placeholder="password...">
+            </p>
+            <p>
+                <label>jenis kelamin</label>
+                 <label><input type="radio" name="jenis kelamin" value="lakilaki">laki laki</label>
+                <label><input type="radio" name="jenis kelamin" value="perempuan">perempuan</label>
+            </p>
+            <p>
+                <label>agama</label>
+                <select name="agama">
+                <option value="islam">islam</option>
+                <option value="keristen">keristen</option>
+                <option value="hindu">hindu</option>
+                <option value="budha">budha</option>
+                </select>
+            </p>
+            <p>
+                <label>biografi</label>
+                <textarea name="biografi" id=""></textarea>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Daftar">
+            </p>
+            
+        </fieldset>
+        <!-- form register -->
+        <fieldset>
+            <legend>form</legend>
+            <p>
+                <label>Alamat web</label>
+                <input type="url" name="name" placeholder="MASUKKAN URL WEB">
+            </p>
+            <p>
+                <label>tanggal lahir</label>
+                <input type="date" name="tanggal lahir">
+            </p>
+            <p>
+                <label>umur</label>
+                <input type="number" min="10" max="90"name="umur">
+            </p>
+            <p>
+                <label></label>
+            </p>
+        </fieldset>
+    </form>
+ 
+</body>
+</html>
